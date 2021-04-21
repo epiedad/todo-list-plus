@@ -86,7 +86,7 @@ const App: React.FC = () => {
 
     if (word !== "") {
       let newList = [];
-      newList = oldList.filter((todo) => todo.name.includes(word));
+      newList = oldList.filter((todo) => todo.name.toLowerCase().includes(word.toLocaleLowerCase()));
       setFilterDisplay(newList);
     } else {
       setFilterDisplay(todos);

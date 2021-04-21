@@ -13,7 +13,7 @@ const Todo: React.FC<Props> = ({ todo, updateTodo, deleteTodo, memes }) => {
   const formatUpdateDate =
     todoUpdatedDate !== null ? new Date(todoUpdatedDate).toDateString() : null;
 
-  const memeFound = memes.find((meme) => meme.name.includes(todo.name));
+  const memeFound = memes.find((meme) => meme.name.toLowerCase().includes(todo.name.toLocaleLowerCase()));
 
   return (
     <div className="Card">
