@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "jelianchaszer",
+    "MONGO_PASSWORD": "X5mq6idgUZ5G76W2",
+    "MONGO_DB": "myTodoList"
+  }
+}

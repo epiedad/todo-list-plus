@@ -1,0 +1,87 @@
+.App {
+  margin: 20px 0;
+}
+
+body {
+  background-color: #f6f7f9;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+button.add-btn.btn.btn-primary {
+  background-color: #48919e;
+  border-color: transparent;
+}
+
+button.btn-remove.btn.btn-primary, 
+button.btn-remove.btn.btn-primary:active
+ {
+  background-color: #f17167;
+  border-color: transparent;
+  float: right;
+}
+
+input#name {
+  border-width: 2px;
+  border-color: #bcc7e4;
+}
+
+.todo-completed {
+  color: #bcc7e4;
+  text-decoration: line-through;
+}
+
+.Card {
+  padding-top: 20px;
+}
+.card-name {
+  padding-left: 20px;
+}
+
+hr.todo {
+  border: 1px solid #bcc7e4;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.sort-btn {
+  padding: 10px 0;
+}
+
+.sort-btn button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+  margin-right: 5px;
+}
+
+.sort-btn button.ascending::after {
+  content: '👇';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.sort-btn button.descending::after {
+  content: '☝️';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.meme-image {
+  padding-left: 20px;
+}
+
+img.meme {
+  width:120px;
+  height:auto;
+}
+
+.todo-date {
+  font-size: 1em;
+}
