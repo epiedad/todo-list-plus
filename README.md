@@ -1,5 +1,6 @@
 # Todolist app
-My Todolist using React Typescript Express MongoDB BootStrap
+My Todolist++ using React Typescript Express Mongoose BootStrap
+Features: Search filter, sorting (todo name and todo date) and third party integration using Imgflip API
 
 ## Installation
   [Node Installation](https://nodejs.org/en/download/)
